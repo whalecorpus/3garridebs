@@ -1,5 +1,41 @@
+
 .logo {
     width: 200px;
     height: 200px;
     margin: 0px 5px 0px 5px;
+}
+
+.page {
+	display:flex;
+	flex-direction: row;
+}
+
+.menu_links {
+	/*direction of links*/
+	display: flex;
+	flex-direction: column;
+	/*styling of links*/
+}
+
+.menu-link {
+    margin: 5px 5px 5px 15px;
+    font-style: #406695;
+}
+
+.content {
+	/*positioning*/
+	margin: 5px;
+	padding: 1em;
+
+	/*text*/
+	line-height: 1.4;
+	background-color: #EEEEEE;
+	font-size: 1em;
+}
+
+footer {
+	/*direction of footer*/
+	display:flex;
+	justify-content: space-between;
+	/*styling of footer*/
 }
