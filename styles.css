@@ -9,7 +9,7 @@ body {
 }
 
 h2,h3 {
-
+	
 }
 
 .logo {
@@ -49,7 +49,7 @@ h2,h3 {
 .content {
 	/*positioning*/
 	margin: 5px;
-	padding: 1em 2em 1em 2em;
+	padding: 1em 3em 1em 3em;
 
 	/*border*/
 	border: 2px solid var(--holmes-blue);
