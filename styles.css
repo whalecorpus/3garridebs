@@ -1,11 +1,15 @@
 /*Holmes colors: 406695 blue, #ff8b2c yellow, #c92459 magenta*/
 
 body {
-    background:url("img/background2.jpg");
+    background:url("img/background4.jpg");
     background-size: cover;
     background-position: center;
     --holmes-blue: #406695;
-    --off-white: #d8d8d8;
+    --off-white: #EEEEEE;
+}
+
+h2,h3 {
+
 }
 
 .logo {
@@ -26,6 +30,7 @@ body {
 	border-radius: 5px;
 	margin: 5px;
 	padding: 1em;
+	font-family: "Bebas Neue", sans-serif;
 }
 
 .menu_links {
@@ -44,7 +49,7 @@ body {
 .content {
 	/*positioning*/
 	margin: 5px;
-	padding: 1em;
+	padding: 1em 2em 1em 2em;
 
 	/*border*/
 	border: 2px solid var(--holmes-blue);
@@ -54,6 +59,7 @@ body {
 	line-height: 1.4;
 	background-color: var(--off-white);
 	font-size: 1em;
+	font-family: serif;
 
 	display:flex;
 	flex-direction: column;*/
@@ -75,7 +81,7 @@ body {
 
 .homepage {
 	line-height: 1;
-	background-color: #EEEEEE;
+	background-color: var(--off-white);
 	font-size: 1.1em;
 }
 

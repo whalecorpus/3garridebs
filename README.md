@@ -1,3 +1,8 @@
+styling
+	top home bar / title
+	side-menu
+	background
+
 index.html
     heading
     icon
