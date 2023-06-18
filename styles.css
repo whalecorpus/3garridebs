@@ -1,27 +1,30 @@
 /*Holmes colors: 406695 blue, #ff8b2c yellow, #c92459 magenta*/
 
+:root {
+    --holmes-blue: #406695;
+    --holmes-yellow:#ff8b2c;
+    --off-white: #EEEEEE;
+}
+
 body {
     background:url("img/background.jpg");
     background-size: cover;
     background-position: center;
-    --holmes-blue: #406695;
-    --off-white: #EEEEEE;
-}
-
-h2,h3 {
-	
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 90%;
+    /*height: 90%;*/
     margin: 0px 5px 0px 5px;
 }
 
+.logo2 {
+	display:none;
+}
+
 .page {
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
+	display: grid;
+  	grid-template-columns: 20% 80%;
 }
 
 .menu {
@@ -43,7 +46,12 @@ h2,h3 {
 
 .menu-link {
     margin: 5px 5px 5px 15px;
-    color: #406695;
+    color: var(--holmes-blue);
+}
+
+
+.activePage {
+    color: var(--holmes-yellow);
 }
 
 .content {
@@ -67,6 +75,7 @@ h2,h3 {
 
 .content img {
 	align-self: center;
+	width: 95%;
 }
 
 .investitures {
@@ -161,6 +170,8 @@ h2,h3 {
 .officers {
 	display: grid;
   	grid-template-columns: 33% 34% 33%;
+  	list-style-type: none;
+  	line-height: 1.1em;
 }
 
 footer {
@@ -168,4 +179,40 @@ footer {
 	display:flex;
 	justify-content: space-between;
 	/*styling of footer*/
+}
+
+/* SOME MOBILE TWEAKS */
+@media screen and (max-width: 650px) {
+	.logo {
+		display: none;
+	}
+
+	.logo2 {
+		display: block;
+	    width: 30%;
+	    margin-left: 1em;
+	}
+
+	.page {
+		display: flex;
+		flex-direction: column;
+	  	/*grid-template-columns: 20% 80%;*/
+	}
+
+	.menu {
+		background-color: var(--off-white);
+		border: 2px solid var(--holmes-blue);
+		border-radius: 5px;
+		margin: 5px;
+		padding: 1em;
+		font-family: "Bebas Neue", sans-serif;
+	}
+
+	.menu_links {
+		/*direction of links*/
+		display: grid;
+		grid-template-columns: 20% 20% 20% 20% 20%;
+		/*styling of links*/
+		font-size: 1em;
+	}
 }
