@@ -2,6 +2,7 @@
 
 :root {
     --holmes-blue: #406695;
+    --lighter-holmes-blue: #6184AE;
     --holmes-yellow:#ff8b2c;
     --off-white: #EEEEEE;
 }
@@ -40,11 +41,16 @@ body {
 	font-size: 1.2em;
 }
 
+.subcontents {
+	list-style-type: none;
+	line-height: 1em;
+	color: var(--holmes-blue);
+}
+
 .menu-link {
     margin: 5px 5px 5px 15px;
     color: var(--holmes-blue);
 }
-
 
 .activePage {
     color: var(--holmes-yellow);
@@ -204,5 +210,9 @@ footer {
 		grid-template-columns: 20% 20% 20% 20% 20%;
 		/*styling of links*/
 		font-size: 1em;
+	}
+
+	.subcontents {
+		display: none;
 	}
 }
