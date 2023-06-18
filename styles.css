@@ -1,7 +1,7 @@
 /*Holmes colors: 406695 blue, #ff8b2c yellow, #c92459 magenta*/
 
 body {
-    background:url("img/background4.jpg");
+    background:url("img/background.jpg");
     background-size: cover;
     background-position: center;
     --holmes-blue: #406695;
@@ -43,7 +43,7 @@ h2,h3 {
 
 .menu-link {
     margin: 5px 5px 5px 15px;
-    font-style: #406695;
+    color: #406695;
 }
 
 .content {
@@ -64,6 +64,79 @@ h2,h3 {
 	display:flex;
 	flex-direction: column;*/
 }
+
+.content img {
+	align-self: center;
+}
+
+.investitures {
+	display: grid;
+  	grid-template-columns: 30% 20% 50%;
+  	font-family: monospace;
+}
+
+.awards {
+	display: grid;
+  	grid-template-columns: 30% 70%;
+}
+
+.fakename {
+	color: green;
+	font-weight: bold;
+}
+
+.investitures span {
+	padding: 10px 0px 10px 0px;
+}	
+
+.awards {
+	font-family: sans-serif;
+}
+
+.VR, .r3 {
+	color: red;
+	font-weight: bold;
+}
+
+.twoshilling, .g3 {
+	color: green;
+	font-weight: bold;
+}
+
+.amick, .b3 {
+	font-weight: bold;
+	color: blue;
+}
+
+.brodie {
+	font-weight: bold;
+	color: purple;
+}
+
+.o3 {
+	font-weight: bold;
+	color: orange;
+}
+
+.schw, .cadet {
+	font-weight: bold;
+	color: cadetblue;
+}
+
+.prescot {
+	font-weight: bold;
+	color: #000066;
+}
+
+.reg {
+	font-weight: bold;
+}
+
+.howard {
+	font-weight: bold;
+	color: lightcoral;	
+}
+
 
 .events {
 	align-self:center;
