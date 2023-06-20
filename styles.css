@@ -3,7 +3,7 @@
 :root {
     --holmes-blue: #406695;
     --lighter-holmes-blue: #6184AE;
-    --holmes-yellow:#ff8b2c;
+    --holmes-yellow: #ff8b2c;
     --off-white: #EEEEEE;
 }
 
@@ -181,7 +181,12 @@ body {
 	border-radius: 15px;
 	padding: 0.5em;
 	margin: 0.25em;
+}
 
+.officer_name {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: var(--holmes-yellow);
 }
 
 footer {
