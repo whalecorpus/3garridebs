@@ -60,6 +60,17 @@ ul {
     color: var(--holmes-yellow);
 }
 
+.eventHeading {
+	margin-top: 0px;
+	margin-bottom: 4px; 
+}
+
+.meetingdesc {
+	margin-top: 0px;
+	font-size: smaller;
+	margin-bottom: 0px; 
+}
+
 .content {
 	/*positioning*/
 	margin: 5px;
